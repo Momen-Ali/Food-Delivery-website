@@ -70,7 +70,7 @@ const CartContainer = () => {
               ))}
           </div>
           {/* Total Section */}
-          <div className="w-full flex-1 bg-cartTotal rounded-tl-[2rem] flex flex-col items-center justify-evenly px-8 py-2">
+          <div className="w-full flex-1 bg-cartTotal rounded-tl-[2rem] flex flex-col items-center justify-evenly px-8 pt-9 pb-20">
             <div className="w-full flex items-center justify-between">
               <p className="text-gray-400 text-lg">Sub Total</p>
               <p className="text-gray-400 text-lg">$ {tot}</p>
